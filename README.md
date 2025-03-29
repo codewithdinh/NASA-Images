@@ -2,7 +2,7 @@
 
 Submitted by: **Dinh Thien Bui**
 
-This web app: **insert description**
+This web app: **The NASA APOD Viewer is a React-based web application that allows users to explore the wonders of the cosmos by fetching and displaying NASA's Astronomy Picture of the Day (APOD). Users can view stunning images or videos of space, learn about their significance, and interact with the app through features like a ban list and a history of previously displayed images.**
 
 Time spent: **10** hours spent in total
 
