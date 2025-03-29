@@ -1,0 +1,202 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a2e; /* Dark background for a modern look */
+  color: #eaeaea; /* Light text for contrast */
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2.5rem;
+  color: #f5a623; /* Vibrant orange for headings */
+}
+
+h2 {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 1.8rem;
+  color: #f5a623;
+}
+
+h3 {
+  margin: 20px 0 10px;
+  font-size: 1.5rem;
+  color: #f5a623;
+}
+
+/* Container */
+div {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* APOD Display */
+.apod-container {
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #16213e; /* Dark blue background for the APOD section */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.apod-container img,
+.apod-container iframe {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.apod-container p {
+  cursor: pointer;
+  color: #f5a623;
+  font-weight: bold;
+}
+
+.apod-container p:hover {
+  text-decoration: underline;
+}
+
+/* Button */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #f5a623;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d48821;
+}
+
+/* Ban List */
+.ban-list {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #16213e; /* Matches the APOD section */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ban-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.ban-list li {
+  padding: 5px 10px;
+  margin: 5px 0;
+  background-color: #1f4068; /* Slightly lighter blue for list items */
+  color: #eaeaea;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ban-list li:hover {
+  background-color: #f5a623;
+  color: #1a1a2e; /* Invert colors on hover */
+}
+
+/* History Section */
+.history-container {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #16213e; /* Matches the APOD section */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.history-container h3 {
+  text-align: center;
+}
+
+.history-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.history-item {
+  width: 200px;
+  background-color: #1f4068; /* Matches the ban list items */
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  color: #eaeaea;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.history-item:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.history-item img,
+.history-item iframe {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.history-item h4 {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: #f5a623;
+}
